@@ -9,7 +9,17 @@ session_start();
 
     $result = mysqli_query($conn,$sql);
     $row = $result->fetch_assoc();
-    print_r($row);
+    if(!$row){
+      header("Location: reregist.php");
+    }else{
+      if(password_verify($password,$row['password'])){
+        $_SESSION['username'] = $row['namadepan'].' '.$row['namablkng'];
+        $_SESSION['email'] = $row['email'];
+        header("Location: home.php");
+      }else{
+        die("Password salah !");
+      }
+    }
   }
 ?>
 

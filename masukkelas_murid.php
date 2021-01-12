@@ -276,10 +276,10 @@
                 <form class="user m-2 p-2"action="masukkelas_murid.php" method="post">
                     <div class="form-group row" style="margin-bottom: 0px;">
                       <div class="form-group col-sm-8">
-                        <input type="text" class="form-control" id="name" name="name" placeholder="Nama Kelas">
+                        <input type="text" class="form-control" id="name" name="name" placeholder="Nama Kelas" required>
                       </div>
                       <div class="form-group col-sm-4">
-                        <input type="text" class="form-control" id="kapasitas" name="kapasitas" placeholder="Kapasitas">
+                        <input type="text" class="form-control" id="kapasitas" name="kapasitas" placeholder="Kapasitas" required>
                       </div>
                     </div>
                     <div class="form-group">

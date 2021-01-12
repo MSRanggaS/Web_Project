@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 # [Start Bootstrap - SB Admin 2](https://startbootstrap.com/themes/sb-admin-2/)
 
 [SB Admin 2](https://startbootstrap.com/themes/sb-admin-2/) is an open source admin dashboard theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/).
@@ -63,3 +64,6 @@ Start Bootstrap is based on the [Bootstrap](https://getbootstrap.com/) framework
 ## Copyright and License
 
 Copyright 2013-2020 Start Bootstrap LLC. Code released under the [MIT](https://github.com/StartBootstrap/startbootstrap-resume/blob/gh-pages/LICENSE) license.
+=======
+# Web_Project
+>>>>>>> 2d8cdc064d36048910e5278455c145a84e92e7b7

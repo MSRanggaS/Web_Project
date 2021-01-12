@@ -13,16 +13,16 @@
   <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
   <style>
-     /* body {
+     body {
         width: 100%;
-        background-image: url(images/lpbg3_2.png);
+        background-image: url(images/desain.png);
         background-position: center center;
         background-repeat: no-repeat;
         background-attachment: fixed;
         background-size: cover;
         background-color: #464646;
     }
-    @media only screen and (min-width: 400px) {
+    /*@media only screen and (min-width: 400px) {
     body { 
         background-image: url('images/lib.jpg'); 
       }
@@ -84,10 +84,10 @@
       </li>
   </nav>-->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-white topbar mb-4 static-top shadow">
+  <nav class="navbar navbar-expand-lg navbar-light bg-ijo topbar mb-4 static-top">
 
         <a class="navbar-brand" href="#">
-        <img src="images/jembatanpengetahuan.png" style="width:150px;" >
+        <img src="images/logo.png" style="width:150px;" >
         </a>
 
         <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarTogglerDemo01" aria-controls="navbarTogglerDemo01" aria-expanded="false" aria-label="Toggle navigation">
@@ -101,7 +101,7 @@
 
             <!-- Nav Item - Messages -->
             <li class="nav-item dropdown no-arrow active">
-              <a class="nav-link" href="register.php" role="button" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" style="white" href="register.php" role="button" aria-haspopup="true" aria-expanded="false">
                 <span>Register</span>
               </a>
             </li>
@@ -110,7 +110,7 @@
 
             <!-- Nav Item - User Information -->
             <li class="nav-item dropdown no-arrow active">
-              <a class="nav-link" href="login.php" role="button" aria-haspopup="true" aria-expanded="false">
+              <a class="nav-link" style="white" href="login.php" role="button" aria-haspopup="true" aria-expanded="false">
                 <span>Login</span>
               </a>
             </li>
